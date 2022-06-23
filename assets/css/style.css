@@ -1,0 +1,534 @@
+:root {
+    --bordercolor: rgba(255, 8, 0, 0.75) 3px;
+   }
+   
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+   
+     body {
+       color: var(--tertiary-color);
+       font-family: Helvetica, Arial, sans-serif;
+       background-color: rgb(46, 24, 168);
+     }
+   
+   /* HEADER / NAV BAR STYLES START */
+   
+   :root {
+       --primary-color: #fce138;
+       --secondary-color: #24495e;
+       --tertiary-color: rgba(156, 4, 4, 0.769);
+     }
+     
+     
+     /* HEADER / NAV BAR STYLES START */
+     
+     header {
+       display: center;
+       background-image: url("../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg");
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: 80%;
+       z-index: 9999;
+       padding: 20px 35px;
+       background-color: var(--tertiary-color);
+       display: flex;
+       justify-content: space-between;
+     }
+     
+     header h1 {
+       font-weight: bold;
+       margin: 0;
+       font-size: 36px;
+       color: var(--primary-color);
+       text-shadow: 0 0 10px #9c0404c4;
+     }
+     
+     header a {
+       text-decoration: none;
+       color: var(--primary-color);
+     }
+     
+     header nav {
+       margin: 7px 0;
+     }
+     
+     header nav ul {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       list-style: none;
+     }
+     
+     header nav ul li a {
+       padding: 10px 15px;
+       font-weight: lighter;
+       font-size: 1.55vw;
+       text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+     }
+     
+     section {
+       padding: 15px;
+     }
+     
+     .h2 {
+       font-size: 30px;
+       color: var(--tertiary-color);
+       padding: 30px;
+       text-align: left;
+       margin: 5px 20px 10px;
+     }
+     
+     section div p {
+       text-align: center;
+       color: var(--secondary-color);
+       font-weight: bold;
+       font-size: 20px;
+     }
+   
+   /* Hero section Start */
+   .hero {
+       display: flex;
+       justify-content: flex-end;
+   }
+   
+   .hero h2 {
+       display: flex;
+       justify-content: flex-end;
+       background-color: rgba(238, 255, 238, 0.70);
+       background-size: cover;
+       border-radius: 20px 0 0 20px;
+       color:rgb(134, 99, 114);
+       padding: 20px 100px 20px  20px;
+       margin-top: 20px;
+       font-weight: 100;
+       font-size: 20px;
+       letter-spacing: 3px;
+       text-shadow: 0 0 15px rgba(253, 252, 252, 0.5);
+       border-bottom:var(--bordercolor);
+   }
+   /* Hero section End */
+   
+   /* About Me section Start */
+   .theaboutme, .flex, .bottom{
+       display:flex;
+       flex-wrap: wrap;
+   }
+   
+   .theaboutme p {
+       text-indent: 10%;
+       word-spacing: 3px;
+       line-height: 28px;
+       padding: 4%
+   }
+   
+   .theaboutme img {
+       float: left;
+       border-radius: 30px;
+       height: 300px;
+       max-width: 100%;
+   }
+   
+   .primarytitle {
+       flex:2;
+       margin-left: 5%;
+       width: 75%;
+       padding: 20px;
+       color:rgba(156, 4, 4, 0.769);
+       clear:both;
+       width: 20%;
+       letter-spacing: 6px;
+       text-shadow: 0 0 15px rgba(253, 252, 252, 0.5);
+       font-size: 1.2vw;
+       text-align: right;
+   }
+   
+   .paragraphsection {
+       flex:7;
+   }
+   
+   .spacing {
+       flex: 4.75;
+   }
+   /* About Me section End */
+   
+   /* Work section Start */ 
+   .title {
+       flex:0.8;
+       color:rgba(156, 4, 4, 0.769);
+       letter-spacing: 6px;
+       text-shadow: 0 0 15px rgba(253, 252, 252, 0.5);
+       font-size: 2.0vw;
+       text-align: right;
+       padding: 3%;
+   }
+   
+   .titlebox {
+       flex:3;
+   }
+   
+   .Importantproject { 
+       display: flex;
+       flex-wrap: wrap;
+       height: 325px;
+       width: 100%;
+       padding: 10px;  
+   }
+   
+   .Importantproject:hover {
+       opacity: 0.5;
+   }
+   
+   .Importantproject img {
+       width: 100%;
+       min-width: 500px;
+       max-width: 500px;
+       min-height: 300px;
+       max-height: 300px;
+       border: var(--bordercolor);
+       border-radius: 30px;
+       position: relative; 
+   }
+   
+   .importantbox {
+       position:absolute;
+       padding-right: 18px;
+       margin: -10% 0 -10% 0;
+       text-shadow: rgb(161, 6, 6);
+   }
+   
+   h3 {
+       font-size: 1.75vw;  
+       color: black;
+   }
+   
+   .lesserproject {
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%; 
+   }
+   
+   
+   
+   .lesserproject img {
+       background-position: 80%;
+       width: 100%;
+       height: 100%;
+       min-width: 400px;
+       max-width: 500px;
+       min-height: 220px;
+       max-height: 220px;
+       border: var(--bordercolor);
+       position: relative;
+   }
+   
+   .lesserbox {
+       position:absolute;
+       padding-right: 18px;
+       margin: -7% 0 -7% 0;
+   }
+   
+   .project {
+       flex: 1;
+       padding: 20px;   
+   }
+   
+   .project:hover {
+       opacity: 0.5;
+   }
+   
+   .spacing2 {
+       flex: 1;
+   } 
+   
+   /* Work section Start */
+   
+   /* Footer Start*/
+   footer {
+       display: flex;
+       flex-wrap: wrap;
+       background-color: rgb(13, 9, 248);
+       justify-content: space-between;
+       letter-spacing: 7px;
+       background-image: url(../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
+       background-size: cover;
+       background-attachment:fixed;
+       background-position: 80%;
+       border-top: var(--bordercolor);
+   }
+   
+   .contactmesection {
+       flex: 1;
+   }
+   
+   .contactme{
+       flex: 3;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: flex-end;
+   }
+   
+   footer h2 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       list-style: none;
+       text-decoration: none;
+       color:rgb(251, 255, 0);
+       padding: 20px;
+       font-weight: 100;
+       font-size: 30px;
+       margin: 20px 0 20px 0;
+       text-shadow: 0 0 15px var(--tertiary-color);
+   }
+   
+   
+   footer nav a {
+       display: flex;
+       justify-content: space-between;
+       align-items: center; 
+       list-style: none;
+       font-size: 20px;
+       padding: 15px;
+       margin: 10px 20px 10px 20px;
+       text-decoration: none;
+       text-shadow: 0 0 5px rgba(0,0,0,0.5); 
+   }
+   
+   footer nav a:hover {
+       background-color: rgba(238, 255, 238, .8);
+       text-shadow: none; 
+       }
+   /* Footer End*/
+   
+   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER 
+   (NOTE: ALWAYS HAVE THIS SECTION LAST) */
+   
+   @media screen and (max-width: 850px) {
+   
+       header {
+           padding-bottom: 0;
+           justify-content: center;
+           position: relative;
+       }
+       
+       header h1 {
+           width: 100%;
+           text-align: center;
+       }
+       
+       header nav ul {
+           margin-top: 20px;
+           width: 100%;
+           justify-content: center;
+       }
+       
+       header nav ul li a {
+           font-size: 20px;
+       }
+   
+       .primarytitle {
+           flex:2;
+           font-size: 2vw;
+       }
+   
+       .theaboutme img {
+           margin-top: 7%;
+       }
+   
+       .spacing {
+           flex: 0.8;
+       }
+   
+       .title {
+           flex:6;
+           font-size: 3.0vw;
+          
+       }
+   
+       h3 {
+           font-size: 2vw;  
+   
+       }
+   
+       .lesserbox {
+           margin: -9% 0 -9% 0;
+       }
+   }
+   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS Max-width 748px */
+   @media screen and (max-width: 748px) {
+   
+       .theaboutme p {
+           padding: 50px 20px;
+       }
+   
+       .title {
+           flex:1;
+           font-size: 3.0vw;
+          
+       }
+   
+       .Importantproject img {
+           min-width: 400px;
+           max-width: 400px;
+           min-height: 200px;
+           max-height: 200px;
+       }
+   
+       .lesserproject img {
+       min-width: 300px;
+       max-width: 400px;
+       min-height: 200px;
+       max-height: 200px;
+       }
+   
+       h3 {
+           font-size: 4vw;  
+   
+       }
+   
+       .lesserbox {
+           margin: -12% 0 -12% 0;
+       }
+   }
+   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS Max-width 426px */
+   @media screen and (max-width: 426px) {
+   
+       .primarytitle {
+           flex:2;
+           font-size: 3vw;
+           
+       }
+   
+       .theaboutme p {
+           padding: 50px 20px;
+         
+       }
+   
+       .theaboutme img {
+           margin-top: 7%;
+           margin-left: 110px;
+   
+       }
+   
+       .title {
+           flex:1;
+           font-size: 5vw;
+           text-align: center;
+          
+       }
+   
+       .Importantproject {
+           justify-content: center;
+       }
+   
+       .Importantproject img {
+           min-width: 375px;
+           max-width: 375px;
+           min-height: 225px;
+           max-height: 225px;
+       }
+       .project {
+           flex: 1;
+           padding: 5px;   
+       }
+   
+       .spacing2 {
+           flex: 0 0 0;
+       } 
+   
+       .lesserproject img {
+           min-width: 300px;
+           max-width: 300px;
+           min-height: 200px;
+           max-height: 200px;
+       }
+   
+       h3 {
+           font-size: 4vw;  
+   
+       }
+   
+       .importantbox {
+           margin: -25% 0 -25% 0;
+       }
+   
+       .lesserbox {
+           margin: -15% 0 -15% 0;
+       }
+   }
+   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS Max-width 376px */
+   @media screen and (max-width: 376px){
+       .primarytitle {
+           flex:2;
+           font-size: 4vw;
+           margin: 15px;
+           
+       }
+   
+       .theaboutme p {
+           padding: 50px 20px;
+         
+       }
+   
+       .theaboutme img {
+           margin: 7% 0 7% 45%;
+   
+       }
+   
+       .title {
+           flex:1;
+           font-size: 6vw;
+           text-align: center;
+          
+       }
+   
+       .Importantproject {
+           justify-content: center;
+       }
+   
+       .Importantproject img {
+           min-width: 300px;
+           max-width: 300px;
+           min-height: 200px;
+           max-height: 200px;
+        
+       }
+   
+       .project {
+           flex: 1;
+           padding: 5px;   
+       } 
+   
+       .lesserproject img {
+           min-width: 300px;
+           max-width: 300px;
+           min-height: 200px;
+           max-height: 200px;
+           margin-left: 0px;
+       }
+   
+       .importantbox {
+           margin: -25% 0 -25% 0px;
+       }
+   
+       h3 {
+           font-size: 6vw;  
+   
+       }
+   
+       .lesserbox {
+           margin: -25% 0 -25% 0;
+       }
+   
+       footer nav a {
+           font-size: 15px;
+           margin: 5px;
+           padding: 5px;
+       }
+   }
